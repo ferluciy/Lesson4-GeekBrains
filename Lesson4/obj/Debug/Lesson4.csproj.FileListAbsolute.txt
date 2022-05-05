@@ -1,0 +1,14 @@
+D:\Учеба Юнити\Проекты\Lesson4\Lesson4\bin\Debug\Lesson4.exe.config
+D:\Учеба Юнити\Проекты\Lesson4\Lesson4\bin\Debug\Lesson4.exe
+D:\Учеба Юнити\Проекты\Lesson4\Lesson4\bin\Debug\Lesson4.pdb
+D:\Учеба Юнити\Проекты\Lesson4\Lesson4\bin\Debug\GBcool.dll
+D:\Учеба Юнити\Проекты\Lesson4\Lesson4\bin\Debug\GBcool.pdb
+D:\Учеба Юнити\Проекты\Lesson4\Lesson4\obj\Debug\Lesson4.csproj.AssemblyReference.cache
+D:\Учеба Юнити\Проекты\Lesson4\Lesson4\obj\Debug\Lesson4.csproj.SuggestedBindingRedirects.cache
+D:\Учеба Юнити\Проекты\Lesson4\Lesson4\obj\Debug\Lesson4.csproj.CoreCompileInputs.cache
+D:\Учеба Юнити\Проекты\Lesson4\Lesson4\obj\Debug\Lesson4.csproj.CopyComplete
+D:\Учеба Юнити\Проекты\Lesson4\Lesson4\obj\Debug\Lesson4.exe
+D:\Учеба Юнити\Проекты\Lesson4\Lesson4\obj\Debug\Lesson4.pdb
+D:\Учеба Юнити\Проекты\Lesson4\Lesson4\bin\Debug\TextFile1.txt
+D:\Учеба Юнити\Проекты\Lesson4\Lesson4\bin\Debug\Logins.txt
+D:\Учеба Юнити\Проекты\Lesson4\Lesson4\bin\Debug\double.txt
