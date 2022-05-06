@@ -94,8 +94,7 @@ namespace Lesson4
             int number = 0;
             for (int i = 0; i < myArray.Length - 1; i++)
             {
-                if ((Classes.DelNaChislo(myArray[i], 3) && !Classes.DelNaChislo(myArray[i + 1], 3)) ||
-                    (!Classes.DelNaChislo(myArray[i], 3) && Classes.DelNaChislo(myArray[i + 1], 3)))
+                if (Classes.DelNaChislo(myArray[i], myArray[i + 1], 3))
                 { 
                     number++;
                     Classes.PrintLeft(String.Format($"Найденная пара: {myArray[i]} : {myArray[i+1]}"), false, ConsoleColor.Yellow);

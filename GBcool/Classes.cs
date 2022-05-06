@@ -348,9 +348,8 @@ namespace GBcool
                 int number = 0;
                 for (int i = 0; i < arr.Length - 1; i++)
                 {
-                    if ((Classes.DelNaChislo(arr[i], search) && !Classes.DelNaChislo(arr[i + 1], search)) ||
-                        (!Classes.DelNaChislo(arr[i], search) && Classes.DelNaChislo(arr[i + 1], search)))
-                    {
+                    if (Classes.DelNaChislo(arr[i], arr[i + 1], 3))
+                {
                         number++;
                         Classes.PrintLeft(String.Format($"Найденная пара: {arr[i]} : {arr[i + 1]}"), false, ConsoleColor.Yellow);
                     }
@@ -558,9 +557,9 @@ namespace GBcool
                 }
             }
 
-            public static bool DelNaChislo(int a, int del) //делиться на число без остатка
-            {
-                if (a % del == 0) { return true; }
+            public static bool DelNaChislo(int a, int b, int del) //делиться только a или только b на del без остатка
+        {
+                if (((a % del == 0) && (b % del != 0)) || ((b % del == 0) && (a % del != 0))) { return true; }
                 else { return false; }
             }
             public static void Print(string s, int x, int y, ConsoleColor foregroundcolor) //вывод текста по координатам
